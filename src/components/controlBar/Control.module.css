@@ -1,0 +1,56 @@
+.controlBar {
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  /* transform: translateX(-50%); */
+  width: 600px;
+  /* height: 10vh; */
+  background-color: rgb(255, 255, 255, 0.5);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  /* overflow-x: scroll; */
+  overflow-y: hidden;
+  text-align: center;
+  padding: 16px;
+}
+.title {
+  padding: 0 0 16px;
+}
+.title p {
+  margin: 0;
+}
+.helperSubtext {
+  font-size: 12px;
+  opacity: 0.75;
+  margin-top: 8px;
+  margin-bottom: 10px;
+}
+.scrubberInput {
+  width: 80%;
+  margin: 0;
+}
+.btnRow {
+  display: flex;
+  justify-content: center;
+  margin-left: -10px;
+}
+.btnRow .btn {
+  margin-left: 10px;
+  cursor: pointer;
+  background: #1e87f0;
+  color: #fff;
+  padding: 0 15px;
+  line-height: 28px;
+  font-size: 14px;
+  border: 1px solid transparent;
+}
+.btnRow .btn:hover {
+  background: #0f7ae5;
+}
+.btnRow .btnDisabled {
+  opacity: 0.6;
+  cursor: default;
+  background-color: #ccc;
+}
+.btnRow .btnDisabled:hover {
+  background-color: #ccc;
+}
